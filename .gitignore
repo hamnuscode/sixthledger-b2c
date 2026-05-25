@@ -1,0 +1,8 @@
+node_modules
+dist
+*.local
+.DS_Store
+*.docx
+*.pdf
+Horizontal All Black.png
+logo-black.png
