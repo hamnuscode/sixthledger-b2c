@@ -21,8 +21,8 @@ export const homeFaqs: FAQ[] = [
     a: 'Yes. Our team works Monday to Friday, 9am to 5pm GMT. We are available by email and video call throughout those hours, including during busy periods such as self assessment season and year end deadlines.',
   },
   {
-    q: 'Which accounting software do you use?',
-    a: 'We work in Xero, QuickBooks, Sage, and FreeAgent. We can also work in other platforms ,  ask us. We do not insist you switch software.',
+    q: 'What accounting software do you work with?',
+    a: 'We work in Xero, QuickBooks, Sage, and FreeAgent. We can also work in other platforms, ask us. We do not insist you switch software.',
   },
   {
     q: 'Can I start with just one service?',

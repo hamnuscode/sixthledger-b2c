@@ -4,7 +4,7 @@ import { Stagger, item } from '../ui/Reveal'
 import { motion } from 'framer-motion'
 
 const stats = [
-  { value: '3+2', label: 'ACCA Qualified\n& Finalists', numeric: false },
+  { value: '5', label: 'ACCA\nQualified', numeric: false },
   { value: '9', label: 'Service\nLines', numeric: true },
   { value: '4', label: 'Cloud\nPlatforms', numeric: true },
   { value: '9am', label: 'to 5pm\nGMT', numeric: false },

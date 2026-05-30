@@ -34,7 +34,7 @@ const badges = [
   },
   {
     title: 'MTD Ready',
-    subtitle: 'Making Tax Digital compliant',
+    subtitle: 'Fully prepared for Making Tax Digital requirements.',
     icon: (
       <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
         <rect x="4" y="4" width="20" height="20" rx="2" stroke="currentColor" strokeWidth="1.5" />

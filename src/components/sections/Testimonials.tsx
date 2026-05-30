@@ -38,9 +38,9 @@ export default function Testimonials() {
               <footer className="border-t border-smoke pt-4 mt-auto">
                 <cite className="not-italic">
                   <p className="font-body text-sm text-pure font-medium">{t.name}</p>
-                  <p className="font-body text-xs text-ash mt-0.5">{t.business}</p>
+                  <p className="font-body text-xs text-ash mt-0.5">{t.role}</p>
                   <p className="font-mono text-xs text-lime mt-1 uppercase tracking-label">
-                    {t.service}
+                    {t.location}
                   </p>
                 </cite>
               </footer>
