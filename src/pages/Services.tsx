@@ -21,7 +21,7 @@ export default function Services() {
             <span className="italic">accountancy partner.</span>
           </h1>
           <p className="font-body text-bone text-base max-w-xl leading-relaxed">
-            Everything a UK small business, contractor, or sole trader needs — under one
+            Everything a UK small business, contractor, or sole trader needs, under one
             roof. ACCA-led, MTD-ready, delivered in UK working hours.
           </p>
         </div>

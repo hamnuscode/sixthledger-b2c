@@ -11,7 +11,7 @@ export default function Footer() {
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-10 py-16">
           {/* Column 1: Brand */}
           <div className="col-span-2 md:col-span-3 lg:col-span-1">
-            <Link to="/" aria-label="Sixth Ledger — Home" className="inline-block mb-4">
+            <Link to="/" aria-label="Sixth Ledger, Home" className="inline-block mb-4">
               <img
                 src="/logo-black.png"
                 alt="Sixth Ledger"
@@ -31,7 +31,7 @@ export default function Footer() {
                 rel="noopener noreferrer"
                 className="text-lime hover:underline"
               >
-                ZA — pending
+                ZA (pending)
               </a>
             </p>
           </div>
@@ -112,17 +112,9 @@ export default function Footer() {
                   info@sixthledger.com
                 </a>
               </li>
-              <li>
-                <a
-                  href="tel:+923000692222"
-                  className="text-bone text-sm hover:text-lime transition-colors"
-                >
-                  +92 300 0692222
-                </a>
-              </li>
+
               <li>
                 <address className="text-ash text-xs not-italic leading-relaxed">
-                  Emaar Canyon Views<br />
                   Islamabad, Pakistan
                 </address>
               </li>
@@ -151,20 +143,15 @@ export default function Footer() {
           </p>
           <nav aria-label="Legal navigation">
             <ul className="flex items-center gap-5">
-              {[
-                { to: '/privacy', label: 'Privacy Policy' },
-                { to: '/terms', label: 'Terms' },
-                { to: '/cookies', label: 'Cookies' },
-              ].map(item => (
-                <li key={item.to}>
-                  <Link
-                    to={item.to}
-                    className="text-ash text-xs hover:text-lime transition-colors"
-                  >
-                    {item.label}
-                  </Link>
-                </li>
-              ))}
+              <li>
+                <a href="https://drive.google.com/drive/folders/1FQoRnfnJvz4Ctc_RhHTjiYUhzJZW5bRX?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-ash text-xs hover:text-lime transition-colors">Privacy Policy</a>
+              </li>
+              <li>
+                <Link to="/terms" className="text-ash text-xs hover:text-lime transition-colors">Terms</Link>
+              </li>
+              <li>
+                <Link to="/cookies" className="text-ash text-xs hover:text-lime transition-colors">Cookies</Link>
+              </li>
             </ul>
           </nav>
         </div>

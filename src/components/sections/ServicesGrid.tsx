@@ -21,7 +21,7 @@ export default function ServicesGrid() {
                 <span className="italic">handled.</span>
               </h2>
               <p className="text-bone text-sm leading-relaxed mb-6">
-                From monthly bookkeeping to year-end accounts, payroll to VAT — we cover all nine
+                From monthly bookkeeping to year-end accounts, payroll to VAT, we cover all nine
                 core accounting services for UK small businesses, contractors, and sole traders.
               </p>
               <Button to="/services" variant="outline" size="sm">

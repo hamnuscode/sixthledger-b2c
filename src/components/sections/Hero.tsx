@@ -43,7 +43,7 @@ export default function Hero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.55, ease: EASE, delay: 0.05 }}
             >
-              — For UK small businesses
+             , For UK small businesses
             </motion.p>
 
             <motion.h1
@@ -68,7 +68,7 @@ export default function Hero() {
               transition={{ duration: 0.65, ease: EASE, delay: 0.28 }}
             >
               Professional accounting and bookkeeping for UK sole traders, freelancers, and
-              small businesses. ACCA-led, ICO-registered, MTD-ready — at a price that
+              small businesses. ACCA-led, ICO-registered, MTD-ready, at a price that
               makes sense.
             </motion.p>
 

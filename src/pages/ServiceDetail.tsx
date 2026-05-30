@@ -29,7 +29,7 @@ export default function ServiceDetail() {
           </nav>
           <div className="flex items-start justify-between gap-6">
             <div>
-              <p className="eyebrow mb-3">{service.number} — Service</p>
+              <p className="eyebrow mb-3">{service.number}, Service</p>
               <h1 className="font-display text-4xl md:text-5xl text-pure mb-4">
                 {service.title}
               </h1>
@@ -109,7 +109,7 @@ export default function ServiceDetail() {
                 <p className="font-body text-sm text-bone leading-relaxed mb-4">
                   We price on a fixed-fee monthly retainer or per-engagement basis, depending
                   on your requirements. Pricing is agreed at onboarding and confirmed in your
-                  engagement letter — no hidden costs, no surprise invoices.
+                  engagement letter, no hidden costs, no surprise invoices.
                 </p>
                 <Button to="/contact" variant="outline" size="sm">
                   Get a quote

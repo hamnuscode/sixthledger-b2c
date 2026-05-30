@@ -5,7 +5,7 @@ const reasons = [
   {
     numeral: 'i.',
     title: 'You focus on your business',
-    body: 'We take the admin off your hands entirely. Bookkeeping, payroll, VAT, tax returns — you hand them to us and they get done. No chasing, no reminders.',
+    body: 'We take the admin off your hands entirely. Bookkeeping, payroll, VAT, tax returns, you hand them to us and they get done. No chasing, no reminders.',
   },
   {
     numeral: 'ii.',

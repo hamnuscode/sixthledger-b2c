@@ -66,23 +66,14 @@ export default function ClosingCTA() {
               </svg>
               <span className="font-body text-xs">info@sixthledger.com</span>
             </a>
-            <span className="hidden sm:block text-smoke" aria-hidden="true">·</span>
-            <a
-              href="tel:+923000692222"
-              className="flex items-center gap-2 text-ash hover:text-lime transition-colors"
-            >
-              <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
-                <path d="M2 2h3l1.5 3.5L5 7a9 9 0 003 3l1.5-1.5L13 10v3a1 1 0 01-1 1A11 11 0 012 2z" stroke="currentColor" strokeWidth="1.2" strokeLinejoin="round" />
-              </svg>
-              <span className="font-body text-xs">+92 300 0692222</span>
-            </a>
+
             <span className="hidden sm:block text-smoke" aria-hidden="true">·</span>
             <span className="flex items-center gap-2 text-ash">
               <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
                 <circle cx="7" cy="7" r="5.5" stroke="currentColor" strokeWidth="1.2" />
                 <path d="M7 4v3l2 1.5" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" />
               </svg>
-              <span className="font-body text-xs">UK business hours, Mon–Fri</span>
+              <span className="font-body text-xs">UK business hours, Mon to Fri</span>
             </span>
           </div>
         </Reveal>

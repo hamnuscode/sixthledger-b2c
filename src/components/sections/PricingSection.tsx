@@ -16,7 +16,7 @@ interface PricingTier {
 const tiers: PricingTier[] = [
   {
     name: 'Sole Trader',
-    eyebrow: '01 — Starter',
+    eyebrow: '01, Starter',
     price: 'From £149',
     period: 'per month',
     description: 'For freelancers and sole traders who need the basics handled professionally.',
@@ -32,7 +32,7 @@ const tiers: PricingTier[] = [
   },
   {
     name: 'Small Business',
-    eyebrow: '02 — Most popular',
+    eyebrow: '02, Most popular',
     price: 'From £349',
     period: 'per month',
     description: 'For limited companies and partnerships needing a comprehensive accounting service.',
@@ -51,10 +51,10 @@ const tiers: PricingTier[] = [
   },
   {
     name: 'Growing Business',
-    eyebrow: '03 — Full service',
+    eyebrow: '03, Full service',
     price: 'Custom',
     period: 'monthly retainer',
-    description: 'For businesses with complex needs — multi-employee payroll, CIS, company secretarial, and more.',
+    description: 'For businesses with complex needs, multi-employee payroll, CIS, company secretarial, and more.',
     features: [
       'Everything in Small Business',
       'Payroll (unlimited employees)',

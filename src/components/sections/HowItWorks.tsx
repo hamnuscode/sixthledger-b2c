@@ -20,7 +20,7 @@ const steps = [
   {
     numeral: 'iv.',
     title: 'You grow, we scale',
-    body: 'Add services as your business grows. Monthly reporting, year-end, payroll — we expand with you at every stage.',
+    body: 'Add services as your business grows. Monthly reporting, year-end, payroll, we expand with you at every stage.',
   },
 ]
 

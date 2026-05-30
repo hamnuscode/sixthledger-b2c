@@ -13,7 +13,7 @@ const services = [
   'Company Secretarial',
   'Annual Accounts',
   'Full service package',
-  'Not sure — need advice',
+  'Not sure, need advice',
 ]
 
 export default function Contact() {
@@ -106,7 +106,7 @@ export default function Contact() {
                     </svg>
                     <h3 className="font-display text-xl text-pure mb-2">Message received</h3>
                     <p className="font-body text-sm text-bone">
-                      Thank you — we'll be in touch within one business day.
+                      Thank you, we'll be in touch within one business day.
                     </p>
                   </div>
                 ) : (
@@ -217,7 +217,7 @@ export default function Contact() {
                   </h3>
                   <ol className="space-y-4">
                     {[
-                      "We'll ask about your business — type, size, current software, what's not working.",
+                      "We'll ask about your business, type, size, current software, what's not working.",
                       "We'll recommend the services that make sense for your situation.",
                       "We'll give you a fixed-price estimate on the call or within 24 hours.",
                       "No commitment required. If it's not the right fit, we'll say so.",
@@ -245,23 +245,17 @@ export default function Contact() {
                       </svg>
                       <span className="font-body text-sm">info@sixthledger.com</span>
                     </a>
-                    <a href="tel:+923000692222" className="flex items-center gap-2.5 text-bone hover:text-lime transition-colors">
-                      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" className="flex-shrink-0" aria-hidden="true">
-                        <path d="M2 2h3l1.5 3.5L5 7a9 9 0 003 3l1.5-1.5L13 10v3a1 1 0 01-1 1A11 11 0 012 2z" stroke="currentColor" strokeWidth="1.2" strokeLinejoin="round" />
-                      </svg>
-                      <span className="font-body text-sm">+92 300 0692222</span>
-                    </a>
+
                     <div className="flex items-start gap-2.5 text-ash">
                       <svg width="14" height="14" viewBox="0 0 14 14" fill="none" className="flex-shrink-0 mt-0.5" aria-hidden="true">
                         <path d="M7 1a5 5 0 100 10A5 5 0 007 1zM7 6V4M7 8v.5" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" />
                       </svg>
                       <address className="font-body text-xs not-italic leading-relaxed">
-                        Emaar Canyon Views<br />
                         Islamabad, Pakistan
                       </address>
                     </div>
                     <p className="font-mono text-xs text-ash uppercase tracking-label pt-2 border-t border-smoke">
-                      Mon–Fri · 9am–5:30pm GMT
+                      Mon to Fri · 9am to 5:30pm GMT
                     </p>
                   </div>
                 </div>

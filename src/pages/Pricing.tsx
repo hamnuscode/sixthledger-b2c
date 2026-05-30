@@ -77,10 +77,10 @@ export default function Pricing() {
               </h2>
               <div className="space-y-5">
                 {[
-                  { step: '01', text: 'You book a free consultation. We discuss your situation — business type, transaction volume, current software.' },
-                  { step: '02', text: 'We send you a fixed-fee proposal within 24 hours. The price reflects exactly what you need — not a padded package.' },
+                  { step: '01', text: 'You book a free consultation. We discuss your situation, business type, transaction volume, current software.' },
+                  { step: '02', text: 'We send you a fixed-fee proposal within 24 hours. The price reflects exactly what you need, not a padded package.' },
                   { step: '03', text: 'You accept (or we adjust until it\'s right). We sign the engagement letter and data processing agreement.' },
-                  { step: '04', text: 'Monthly direct debit or invoice. Fixed price every month. If your scope changes, we update the agreement — no surprise bills.' },
+                  { step: '04', text: 'Monthly direct debit or invoice. Fixed price every month. If your scope changes, we update the agreement, no surprise bills.' },
                 ].map(item => (
                   <div key={item.step} className="flex items-start gap-4">
                     <span className="font-mono text-xs text-lime tracking-label flex-shrink-0 mt-0.5">

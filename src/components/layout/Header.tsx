@@ -55,7 +55,7 @@ export default function Header() {
           <Link
             to="/"
             className="flex items-center gap-2 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-lime"
-            aria-label="Sixth Ledger — Home"
+            aria-label="Sixth Ledger, Home"
           >
             <img
               src="/logo-black.png"

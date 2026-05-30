@@ -17,7 +17,7 @@ export default function Privacy() {
             Privacy Policy
           </h1>
           <p className="font-body text-ash text-sm">
-            Last updated: May 2026 · ICO Registration: ZA — pending
+            Last updated: May 2026 · ICO Registration: ZA, pending
           </p>
         </div>
       </section>
@@ -36,8 +36,8 @@ export default function Privacy() {
                 controller. Our ICO registration number is displayed in the footer of this website.
               </p>
               <p>
-                <strong>Contact:</strong> info@sixthledger.com · +92 300 0692222<br />
-                <strong>Address:</strong> Emaar Canyon Views, Islamabad, Pakistan
+                <strong>Contact:</strong> info@sixthledger.com<br />
+                <strong>Address:</strong> Islamabad, Pakistan
               </p>
             </LegalSection>
 
@@ -60,10 +60,10 @@ export default function Privacy() {
             <LegalSection title="3. How we use your data">
               <p>We process your personal data for the following purposes:</p>
               <ul>
-                <li><strong>To respond to enquiries</strong> — Lawful basis: legitimate interest (responding to a direct request)</li>
-                <li><strong>To deliver accounting services</strong> — Lawful basis: performance of a contract</li>
-                <li><strong>To comply with legal and regulatory obligations</strong> — Lawful basis: legal obligation (e.g. HMRC reporting requirements)</li>
-                <li><strong>To send marketing communications</strong> — Lawful basis: consent (you can withdraw at any time)</li>
+                <li><strong>To respond to enquiries</strong>, Lawful basis: legitimate interest (responding to a direct request)</li>
+                <li><strong>To deliver accounting services</strong>, Lawful basis: performance of a contract</li>
+                <li><strong>To comply with legal and regulatory obligations</strong>, Lawful basis: legal obligation (e.g. HMRC reporting requirements)</li>
+                <li><strong>To send marketing communications</strong>, Lawful basis: consent (you can withdraw at any time)</li>
               </ul>
             </LegalSection>
 
@@ -117,7 +117,7 @@ export default function Privacy() {
                   ico.org.uk
                 </a>
                 . We would appreciate the opportunity to address your concerns before you approach
-                the ICO — please contact us first at{' '}
+                the ICO, please contact us first at{' '}
                 <a href="mailto:privacy@sixthledger.com" className="text-lime hover:underline">
                   privacy@sixthledger.com
                 </a>

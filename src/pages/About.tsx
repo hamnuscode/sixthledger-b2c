@@ -54,13 +54,13 @@ export default function About() {
                 <p>
                   We set out to change that. By operating with an ACCA-qualified team, working
                   UK business hours, and keeping our pricing fixed and transparent, we give
-                  small businesses the professional accounting service they deserve — without
+                  small businesses the professional accounting service they deserve, without
                   the high-street price tag.
                 </p>
                 <p>
                   We're ICO-registered in the UK, operate under UK GDPR, and have built our
                   data processing infrastructure to meet the standards that UK clients require.
-                  Compliance isn't an afterthought — it's the foundation.
+                  Compliance isn't an afterthought, it's the foundation.
                 </p>
                 <p>
                   Every client gets ACCA-led delivery, clear turnaround times, and a service
@@ -80,11 +80,11 @@ export default function About() {
                   {[
                     { dt: 'Legal name', dd: 'SIXTHLEDGER (PVT) LTD' },
                     { dt: 'Registration', dd: 'SECP Pakistan (in progress)' },
-                    { dt: 'UK Data Protection', dd: 'ICO Registered — ZA (pending)' },
+                    { dt: 'UK Data Protection', dd: 'ICO Registered, ZA (pending)' },
                     { dt: 'Professional body', dd: 'ACCA-led delivery' },
                     { dt: 'Services market', dd: 'UK small businesses, contractors, freelancers' },
-                    { dt: 'Working hours', dd: 'UK business hours, Monday–Friday' },
-                    { dt: 'Office', dd: 'Emaar Canyon Views, Islamabad, Pakistan' },
+                    { dt: 'Working hours', dd: 'UK business hours, Monday to Friday' },
+                    { dt: 'Office', dd: 'Islamabad, Pakistan' },
                     { dt: 'Contact', dd: 'info@sixthledger.com' },
                   ].map(item => (
                     <div key={item.dt} className="flex gap-4">
@@ -184,7 +184,7 @@ export default function About() {
                 UK hours, always
               </h2>
               <p className="font-body text-bone text-sm leading-relaxed mb-4">
-                We work UK business hours — Monday to Friday, 9am to 5:30pm GMT. During peak
+                We work UK business hours, Monday to Friday, 9am to 5:30pm GMT. During peak
                 seasons (January self-assessment, year-end periods) we extend hours to ensure
                 no deadline is missed.
               </p>
@@ -197,7 +197,7 @@ export default function About() {
               <h3 className="font-display text-base text-pure mb-5">Office hours</h3>
               <dl className="space-y-3">
                 {[
-                  { dt: 'Monday–Friday', dd: '9:00am – 5:30pm GMT' },
+                  { dt: 'Monday to Friday', dd: '9:00am  to  5:30pm GMT' },
                   { dt: 'Peak season (Jan)', dd: 'Extended hours available' },
                   { dt: 'Email response', dd: 'Same day (received before 3pm GMT)' },
                   { dt: 'Emergency contact', dd: 'info@sixthledger.com' },

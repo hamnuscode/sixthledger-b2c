@@ -30,7 +30,7 @@ const complianceItems = [
     badge: 'MTD',
     title: 'Making Tax Digital Ready',
     subtitle: 'HMRC MTD-compliant submissions',
-    body: "All VAT returns are submitted through MTD-compatible software in compliance with HMRC's Making Tax Digital requirements. We work with Xero, QuickBooks, Sage, and FreeAgent — all of which are HMRC-approved for MTD submissions.",
+    body: "All VAT returns are submitted through MTD-compatible software in compliance with HMRC's Making Tax Digital requirements. We work with Xero, QuickBooks, Sage, and FreeAgent, all of which are HMRC-approved for MTD submissions.",
     link: '/services/vat',
     linkText: 'Learn about our VAT service →',
   },
@@ -64,7 +64,7 @@ export default function Compliance() {
           </h1>
           <p className="font-body text-bone text-base max-w-xl leading-relaxed">
             ICO-registered. UK GDPR-compliant. IDTA-ready. MTD-compliant. ACCA-led. Here is
-            the full compliance picture — everything you need to verify before working with us.
+            the full compliance picture, everything you need to verify before working with us.
           </p>
         </div>
       </section>
