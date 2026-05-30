@@ -29,7 +29,7 @@ export default function ServiceDetail() {
           </nav>
           <div className="flex items-start justify-between gap-6">
             <div>
-              <p className="eyebrow mb-3">{service.number}, Service</p>
+              <p className="eyebrow mb-3">{service.number}. Service</p>
               <h1 className="font-display text-4xl md:text-5xl text-pure mb-4">
                 {service.title}
               </h1>
