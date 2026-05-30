@@ -7,11 +7,11 @@ const EASE = [0.16, 1, 0.3, 1]
 export default function Hero() {
   return (
     <section
-      className="relative min-h-screen flex items-center pt-20 pb-16 overflow-hidden"
+      className="relative pt-28 pb-0 overflow-hidden"
       style={{ background: 'var(--obsidian)' }}
       aria-labelledby="hero-headline"
     >
-      {/* Radial lime glow behind content */}
+      {/* Radial lime glow */}
       <div
         className="absolute inset-0 pointer-events-none"
         style={{
@@ -21,19 +21,19 @@ export default function Hero() {
         aria-hidden="true"
       />
 
-      {/* Subtle dot-grid background */}
+      {/* Dot-grid background */}
       <div
         className="absolute inset-0 pointer-events-none opacity-[0.035]"
         style={{
-          backgroundImage:
-            'radial-gradient(circle, #ffffff 1px, transparent 1px)',
+          backgroundImage: 'radial-gradient(circle, #ffffff 1px, transparent 1px)',
           backgroundSize: '32px 32px',
         }}
         aria-hidden="true"
       />
 
       <div className="container relative z-10 w-full">
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+        {/* Main two-column layout */}
+        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center pb-16">
           {/* Left: copy */}
           <div className="max-w-xl">
             <motion.p
@@ -43,7 +43,7 @@ export default function Hero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.55, ease: EASE, delay: 0.05 }}
             >
-             , For UK small businesses
+              For UK small businesses
             </motion.p>
 
             <motion.h1
@@ -94,15 +94,13 @@ export default function Hero() {
               transition={{ duration: 0.6, ease: 'easeOut', delay: 0.56 }}
             >
               {['ICO Registered', 'ACCA-Led', 'UK GDPR Compliant', 'MTD-Ready'].map(
-                (item, i) => (
-                  <span key={item} className="flex items-center gap-4">
+                (badge, i) => (
+                  <span key={badge} className="flex items-center gap-4">
                     {i > 0 && (
-                      <span className="text-smoke text-xs" aria-hidden="true">
-                        ·
-                      </span>
+                      <span className="text-smoke text-xs" aria-hidden="true">·</span>
                     )}
                     <span className="font-mono text-xs text-ash uppercase tracking-label">
-                      {item}
+                      {badge}
                     </span>
                   </span>
                 )
@@ -120,6 +118,35 @@ export default function Hero() {
             <VSLPlayer />
           </motion.div>
         </div>
+
+        {/* Calendly booking strip — inside hero, full width */}
+        <motion.div
+          className="border-t border-smoke"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.6, delay: 0.65 }}
+        >
+          <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6 py-8">
+            <div>
+              <p className="eyebrow mb-1">Free consultation</p>
+              <p className="font-display text-xl text-pure">
+                Book a free 30-minute call. No obligation.
+              </p>
+            </div>
+            <a
+              href="https://calendly.com/sixthledger"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex-shrink-0 inline-flex items-center gap-2.5 bg-lime text-obsidian font-body font-semibold text-sm px-7 py-3.5 rounded-sm hover:bg-lime-soft active:scale-[0.98] transition-all duration-150"
+            >
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <rect x="3" y="4" width="18" height="18" rx="2" stroke="currentColor" strokeWidth="1.8"/>
+                <path d="M3 9h18M8 2v4M16 2v4" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round"/>
+              </svg>
+              Book on Calendly
+            </a>
+          </div>
+        </motion.div>
       </div>
     </section>
   )

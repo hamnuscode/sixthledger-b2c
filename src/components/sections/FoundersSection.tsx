@@ -12,16 +12,16 @@ export default function FoundersSection() {
           </h2>
         </Reveal>
 
-        <div className="grid sm:grid-cols-2 gap-8 max-w-2xl">
+        <div className="grid sm:grid-cols-2 gap-8 max-w-2xl mx-auto">
           {[
             { name: 'Shayan Ahmed Shujaat', role: 'Chief Executive Officer', initials: 'SA' },
             { name: 'Co-Founder', role: 'Head of Operations', initials: 'CF' },
           ].map((founder) => (
             <Reveal key={founder.name} delay={0.1}>
-              <div className="group cursor-default">
+              <div className="group cursor-default flex flex-col items-center text-center">
                 {/* Photo placeholder */}
                 <div
-                  className="w-full aspect-square bg-obsidian border border-smoke group-hover:border-lime transition-colors duration-300 mb-5 flex items-center justify-center rounded-sm"
+                  className="w-full aspect-square bg-obsidian border border-smoke group-hover:border-lime transition-colors duration-300 mb-5 flex items-center justify-center rounded-sm mx-auto"
                   style={{ maxWidth: '260px' }}
                   aria-label={`Photo of ${founder.name}`}
                 >
