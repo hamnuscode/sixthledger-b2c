@@ -53,18 +53,35 @@ export default function ComplianceRibbon() {
     >
       <div className="container">
         <div className="flex flex-col md:flex-row md:items-start gap-10 md:gap-16">
-          <Reveal className="md:w-40 flex-shrink-0" delay={0.05}>
-            <div className="flex flex-col gap-4">
-              <p id="compliance-heading" className="eyebrow">
-                Compliance
-                <br />
-                stack
-              </p>
-              <svg width="48" height="56" viewBox="0 0 48 56" fill="none" aria-hidden="true" className="text-lime opacity-60">
-                <path d="M24 2L4 10v16c0 14 8.5 26 20 30 11.5-4 20-16 20-30V10L24 2z" stroke="currentColor" strokeWidth="1.5" strokeLinejoin="round"/>
-                <path d="M15 28l6 6 12-12" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
-            </div>
+          <Reveal className="md:w-48 flex-shrink-0" delay={0.05}>
+            <p id="compliance-heading" className="eyebrow mb-6">
+              Compliance
+              <br />
+              stack
+            </p>
+            {/* Combined shield: ICO · GDPR · IDTA · MTD */}
+            <svg width="96" height="112" viewBox="0 0 96 112" fill="none" aria-hidden="true" className="text-lime" style={{ opacity: 0.75 }}>
+              {/* Outer shield */}
+              <path d="M48 4L6 18v28c0 28 17 52 42 62 25-10 42-34 42-62V18L48 4z" stroke="currentColor" strokeWidth="1.4" strokeLinejoin="round"/>
+              {/* Inner shield */}
+              <path d="M48 16L18 26v20c0 20 12 38 30 46 18-8 30-26 30-46V26L48 16z" stroke="currentColor" strokeWidth="1" strokeLinejoin="round" strokeOpacity="0.35"/>
+              {/* Quadrant dividers */}
+              <line x1="48" y1="22" x2="48" y2="88" stroke="currentColor" strokeWidth="0.8" strokeOpacity="0.3"/>
+              <line x1="20" y1="52" x2="76" y2="52" stroke="currentColor" strokeWidth="0.8" strokeOpacity="0.3"/>
+              {/* ICO — top left */}
+              <text x="28" y="44" textAnchor="middle" fill="currentColor" fontSize="7" fontFamily="monospace" fontWeight="600" letterSpacing="0.5" fillOpacity="0.7">ICO</text>
+              {/* GDPR — top right */}
+              <text x="66" y="44" textAnchor="middle" fill="currentColor" fontSize="7" fontFamily="monospace" fontWeight="600" letterSpacing="0.5" fillOpacity="0.7">GDPR</text>
+              {/* IDTA — bottom left */}
+              <text x="28" y="68" textAnchor="middle" fill="currentColor" fontSize="7" fontFamily="monospace" fontWeight="600" letterSpacing="0.5" fillOpacity="0.7">IDTA</text>
+              {/* MTD — bottom right */}
+              <text x="66" y="68" textAnchor="middle" fill="currentColor" fontSize="7" fontFamily="monospace" fontWeight="600" letterSpacing="0.5" fillOpacity="0.7">MTD</text>
+              {/* Centre lock */}
+              <rect x="40" y="47" width="16" height="13" rx="1.5" stroke="currentColor" strokeWidth="1.1"/>
+              <path d="M43 47v-3a5 5 0 0110 0v3" stroke="currentColor" strokeWidth="1.1" strokeLinecap="round"/>
+              <circle cx="48" cy="53.5" r="1.5" fill="currentColor"/>
+              <path d="M48 55v3" stroke="currentColor" strokeWidth="1.1" strokeLinecap="round"/>
+            </svg>
           </Reveal>
 
           <Stagger className="flex-1 grid grid-cols-2 lg:grid-cols-4 gap-0 divide-x divide-smoke" stagger={0.1} delay={0.1}>

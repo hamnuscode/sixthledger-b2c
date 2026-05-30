@@ -3,62 +3,69 @@ import { motion } from 'framer-motion'
 const items = [
   {
     label: 'ACCA Qualified',
-    icon: (
-      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
-        <path d="M7 1l1.5 3h3l-2.5 2 1 3L7 7.5 4 9l1-3L2.5 4h3L7 1z" stroke="currentColor" strokeWidth="1.1" strokeLinejoin="round"/>
+    mark: (
+      <svg width="36" height="20" viewBox="0 0 36 20" fill="none" aria-hidden="true">
+        <rect x="0.6" y="0.6" width="34.8" height="18.8" rx="2.4" stroke="currentColor" strokeWidth="1.1"/>
+        <text x="18" y="14" textAnchor="middle" fill="currentColor" fontSize="9" fontFamily="monospace" fontWeight="700" letterSpacing="1.5">ACCA</text>
       </svg>
     ),
   },
   {
     label: 'QuickBooks',
-    icon: (
-      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
-        <rect x="1" y="1" width="12" height="12" rx="2" stroke="currentColor" strokeWidth="1.1"/>
-        <path d="M4 9.5V4.5h3.5a1.5 1.5 0 010 3H5" stroke="currentColor" strokeWidth="1.1" strokeLinecap="round" strokeLinejoin="round"/>
+    mark: (
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+        <rect x="0.6" y="0.6" width="18.8" height="18.8" rx="3" stroke="currentColor" strokeWidth="1.1"/>
+        <circle cx="9" cy="10" r="4" stroke="currentColor" strokeWidth="1.1"/>
+        <path d="M9 6v8M13 9h2" stroke="currentColor" strokeWidth="1.1" strokeLinecap="round"/>
       </svg>
     ),
   },
   {
     label: 'Xero',
-    icon: (
-      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
-        <circle cx="7" cy="7" r="6" stroke="currentColor" strokeWidth="1.1"/>
-        <path d="M4.5 4.5l5 5M9.5 4.5l-5 5" stroke="currentColor" strokeWidth="1.1" strokeLinecap="round"/>
+    mark: (
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+        <circle cx="10" cy="10" r="9" stroke="currentColor" strokeWidth="1.1"/>
+        <path d="M6 6l8 8M14 6l-8 8" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round"/>
       </svg>
     ),
   },
   {
     label: 'Sage',
-    icon: (
-      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
-        <circle cx="7" cy="7" r="6" stroke="currentColor" strokeWidth="1.1"/>
-        <path d="M9 5.5a2.5 2.5 0 10-2 4.5c1 0 1.8-.5 2.3-1.2" stroke="currentColor" strokeWidth="1.1" strokeLinecap="round"/>
+    mark: (
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+        <circle cx="10" cy="10" r="9" stroke="currentColor" strokeWidth="1.1"/>
+        <path d="M13.5 7.5a4 4 0 100 5M13.5 12.5a4 4 0 01-4 0" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round"/>
       </svg>
     ),
   },
   {
     label: 'HMRC',
-    icon: (
-      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
-        <path d="M3 8h8M4 8V5.5c0-.5.5-1 1-1h4c.5 0 1 .5 1 1V8M5 4.5V4a2 2 0 014 0v.5M2 10h10" stroke="currentColor" strokeWidth="1.1" strokeLinecap="round" strokeLinejoin="round"/>
+    mark: (
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+        {/* Crown */}
+        <path d="M3 14h14M4 14V9l3 3 3-5 3 5 3-3v5" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round"/>
+        <circle cx="4" cy="8.5" r="1" fill="currentColor"/>
+        <circle cx="10" cy="4.5" r="1" fill="currentColor"/>
+        <circle cx="16" cy="8.5" r="1" fill="currentColor"/>
+        <path d="M3 16h14" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round"/>
       </svg>
     ),
   },
   {
     label: 'ICO Registered',
-    icon: (
-      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
-        <rect x="1" y="1" width="12" height="12" rx="2" stroke="currentColor" strokeWidth="1.1"/>
-        <path d="M7 5v4M7 4.5v-.5" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round"/>
+    mark: (
+      <svg width="36" height="20" viewBox="0 0 36 20" fill="none" aria-hidden="true">
+        <rect x="0.6" y="0.6" width="34.8" height="18.8" rx="2.4" stroke="currentColor" strokeWidth="1.1"/>
+        <text x="18" y="14" textAnchor="middle" fill="currentColor" fontSize="9" fontFamily="monospace" fontWeight="700" letterSpacing="1.5">ICO</text>
       </svg>
     ),
   },
   {
     label: 'UK GDPR',
-    icon: (
-      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
-        <path d="M7 1L2 3v4c0 3 2 5 5 6 3-1 5-3 5-6V3L7 1z" stroke="currentColor" strokeWidth="1.1" strokeLinejoin="round"/>
-        <path d="M4.5 7l2 2 3-3" stroke="currentColor" strokeWidth="1.1" strokeLinecap="round" strokeLinejoin="round"/>
+    mark: (
+      <svg width="18" height="22" viewBox="0 0 18 22" fill="none" aria-hidden="true">
+        <path d="M9 1L1 4.5v7c0 5 3.5 9.5 8 10 4.5-.5 8-5 8-10v-7L9 1z" stroke="currentColor" strokeWidth="1.1" strokeLinejoin="round"/>
+        <path d="M5.5 11l2.5 2.5 4.5-4.5" stroke="currentColor" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round"/>
       </svg>
     ),
   },
@@ -73,28 +80,27 @@ export default function TrustStrip() {
     >
       <div className="container">
         <motion.div
-          className="py-3 overflow-x-auto"
+          className="py-4 overflow-x-auto"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.7 }}
         >
-          <div className="flex items-center gap-6 min-w-max">
-            <span className="font-mono text-xs uppercase tracking-widest" style={{ color: 'rgba(107,107,107,0.6)' }}>
+          <div className="flex items-center gap-0 min-w-max divide-x divide-smoke">
+            <span className="font-mono text-[10px] uppercase tracking-widest pr-6 flex-shrink-0" style={{ color: 'rgba(107,107,107,0.55)' }}>
               Works with
             </span>
-            <span className="text-smoke text-xs" aria-hidden="true">|</span>
-            {items.map((item, i) => (
-              <span key={item.label} className="flex items-center gap-6">
-                {i > 0 && (
-                  <span className="text-smoke text-xs" aria-hidden="true">·</span>
-                )}
-                <span className="flex items-center gap-1.5" style={{ color: 'rgba(107,107,107,0.7)' }}>
-                  {item.icon}
-                  <span className="font-mono text-[11px] uppercase tracking-wide whitespace-nowrap">
-                    {item.label}
-                  </span>
+            {items.map((item) => (
+              <div
+                key={item.label}
+                className="flex flex-col items-center gap-1.5 px-6"
+                style={{ color: 'rgba(107,107,107,0.65)' }}
+                title={item.label}
+              >
+                {item.mark}
+                <span className="font-mono text-[9px] uppercase tracking-widest whitespace-nowrap" style={{ color: 'rgba(107,107,107,0.45)' }}>
+                  {item.label}
                 </span>
-              </span>
+              </div>
             ))}
           </div>
         </motion.div>
