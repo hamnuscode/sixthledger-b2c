@@ -32,7 +32,7 @@ export default function About() {
             <span className="italic">Built for the way you work.</span>
           </h1>
           <p className="font-body text-bone text-base max-w-xl leading-relaxed">
-            Sixth Ledger is an ACCA-led accounting firm working exclusively with UK small
+            Sixth Ledger is an ACCA led accounting firm working exclusively with UK small
             businesses, freelancers, and sole traders. We handle the numbers so you can
             handle the business.
           </p>
@@ -52,18 +52,18 @@ export default function About() {
                   expensive, too slow, or too generic to be genuinely useful.
                 </p>
                 <p>
-                  We set out to change that. By operating with an ACCA-qualified team, working
+                  We set out to change that. By operating with an ACCA qualified team, working
                   UK business hours, and keeping our pricing fixed and transparent, we give
                   small businesses the professional accounting service they deserve, without
                   the high-street price tag.
                 </p>
                 <p>
-                  We're ICO-registered in the UK, operate under UK GDPR, and have built our
+                  We're ICO registered in the UK, operate under UK GDPR, and have built our
                   data processing infrastructure to meet the standards that UK clients require.
                   Compliance isn't an afterthought, it's the foundation.
                 </p>
                 <p>
-                  Every client gets ACCA-led delivery, clear turnaround times, and a service
+                  Every client gets ACCA led delivery, clear turnaround times, and a service
                   that expands as their business grows. We start with one job. We grow from
                   there.
                 </p>
@@ -81,7 +81,7 @@ export default function About() {
                     { dt: 'Legal name', dd: 'SIXTHLEDGER (PVT) LTD' },
                     { dt: 'Registration', dd: 'SECP Pakistan (in progress)' },
                     { dt: 'UK Data Protection', dd: 'ICO Registered, ZA (pending)' },
-                    { dt: 'Professional body', dd: 'ACCA-led delivery' },
+                    { dt: 'Professional body', dd: 'ACCA led delivery' },
                     { dt: 'Services market', dd: 'UK small businesses, contractors, freelancers' },
                     { dt: 'Working hours', dd: 'UK business hours, Monday to Friday' },
                     { dt: 'Office', dd: 'Islamabad, Pakistan' },
@@ -167,7 +167,7 @@ export default function About() {
                 Team growing
               </p>
               <p className="font-body text-xs text-ash max-w-xs">
-                We're building our team of ACCA-qualified accountants. More profiles coming soon.
+                We're building our team of ACCA qualified accountants. More profiles coming soon.
               </p>
             </div>
           </div>
@@ -185,7 +185,7 @@ export default function About() {
               </h2>
               <p className="font-body text-bone text-sm leading-relaxed mb-4">
                 We work UK business hours, Monday to Friday, 9am to 5:30pm GMT. During peak
-                seasons (January self-assessment, year-end periods) we extend hours to ensure
+                seasons (January self assessment, year end periods) we extend hours to ensure
                 no deadline is missed.
               </p>
               <p className="font-body text-bone text-sm leading-relaxed">

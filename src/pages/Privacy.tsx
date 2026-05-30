@@ -74,7 +74,7 @@ export default function Privacy() {
                 Pakistan, which is outside the UK.
               </p>
               <p>
-                We have implemented appropriate safeguards for such transfers, including UK IDTA-compatible
+                We have implemented appropriate safeguards for such transfers, including UK IDTA compatible
                 Data Processing Agreements. On request, we will provide a copy of the transfer mechanism
                 in use.
               </p>

@@ -21,7 +21,7 @@ export const testimonials: Testimonial[] = [
   {
     quote: 'The compliance setup was what made the decision. ICO registered, GDPR ready from day one, ACCA qualified, and they understood our obligations without us having to explain them.',
     name: 'Rachel O.',
-    business: 'E-commerce Limited Company, Manchester',
+    business: 'Ecommerce Limited Company, Manchester',
     service: 'Compliance',
   },
 ]

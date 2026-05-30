@@ -14,7 +14,7 @@ const serviceIcons: Record<string, JSX.Element> = {
   vat: (
     <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="6" stroke="currentColor" strokeWidth="1.2"/><circle cx="6" cy="6.5" r="1" fill="currentColor"/><circle cx="10" cy="9.5" r="1" fill="currentColor"/><path d="M10 6L6 10" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round"/></svg>
   ),
-  'year-end-accounts': (
+  'year end-accounts': (
     <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><rect x="2" y="3" width="12" height="11" rx="1" stroke="currentColor" strokeWidth="1.2"/><path d="M5 3V1M11 3V1M2 7h12" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round"/><path d="M5.5 10l2 2 3-3" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round"/></svg>
   ),
   'management-accounts': (

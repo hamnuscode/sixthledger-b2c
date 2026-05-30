@@ -22,7 +22,7 @@ export const homeFaqs: FAQ[] = [
   },
   {
     q: 'Which accounting software do you use?',
-    a: 'We work in Xero, QuickBooks, Sage, and FreeAgent. We can also work in other platforms — ask us. We do not insist you switch software.',
+    a: 'We work in Xero, QuickBooks, Sage, and FreeAgent. We can also work in other platforms ,  ask us. We do not insist you switch software.',
   },
   {
     q: 'Can I start with just one service?',

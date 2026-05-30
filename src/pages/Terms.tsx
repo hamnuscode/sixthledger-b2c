@@ -47,8 +47,8 @@ export default function Terms() {
                 body: 'To the maximum extent permitted by law, Sixth Ledger shall not be liable for any indirect, incidental, or consequential damages arising from use of this website or reliance on its content. Our liability for any claim arising from an engagement is limited to the fees paid for that engagement in the relevant period.',
               },
               {
-                title: '6. Third-party links',
-                body: 'This website may contain links to third-party websites. These links are provided for convenience only. We have no control over the content of those sites and accept no responsibility for them.',
+                title: '6. Third party links',
+                body: 'This website may contain links to third party websites. These links are provided for convenience only. We have no control over the content of those sites and accept no responsibility for them.',
               },
               {
                 title: '7. Governing law',

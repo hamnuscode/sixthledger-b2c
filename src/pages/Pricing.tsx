@@ -9,7 +9,7 @@ const addOns = [
   { name: 'Company secretarial', price: 'From £50/month' },
   { name: 'Quarterly review call', price: 'Included from Small Business' },
   { name: 'Budget and forecast', price: 'From £299/year' },
-  { name: 'Catch-up bookkeeping', price: 'Quoted on request' },
+  { name: 'Catch up bookkeeping', price: 'Quoted on request' },
 ]
 
 export default function Pricing() {
@@ -99,13 +99,13 @@ export default function Pricing() {
               <p className="font-body text-xs text-ash mb-6">Regardless of package</p>
               <ul className="space-y-3">
                 {[
-                  'GDPR-compliant data processing agreement',
-                  'ACCA-led delivery and review',
+                  'GDPR compliant data processing agreement',
+                  'ACCA led delivery and review',
                   'UK working hours availability',
                   'Secure document handling',
                   'HMRC correspondence management',
-                  'ICO-registered firm',
-                  'MTD-compatible software',
+                  'ICO registered firm',
+                  'MTD compatible software',
                   'Clear onboarding process',
                 ].map(item => (
                   <li key={item} className="flex items-start gap-2.5">

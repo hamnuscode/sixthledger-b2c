@@ -14,31 +14,31 @@ const complianceItems = [
     badge: 'GDPR',
     title: 'UK GDPR Compliant',
     subtitle: 'UK General Data Protection Regulation',
-    body: 'We process personal data strictly in accordance with the UK General Data Protection Regulation. Every client engagement includes a UK GDPR-compliant Data Processing Agreement (DPA). Our full Privacy Policy sets out how we collect, use, and protect personal data.',
+    body: 'We process personal data strictly in accordance with the UK General Data Protection Regulation. Every client engagement includes a UK GDPR compliant Data Processing Agreement (DPA). Our full Privacy Policy sets out how we collect, use, and protect personal data.',
     link: '/privacy',
     linkText: 'Read our Privacy Policy →',
   },
   {
     badge: 'IDTA',
-    title: 'IDTA-Ready',
+    title: 'IDTA Ready',
     subtitle: 'International Data Transfer Agreement',
-    body: 'We are ready to enter into the UK International Data Transfer Agreement (IDTA) for clients who require it. This is particularly relevant for UK clients whose data may be processed outside the UK. Our standard DPA includes IDTA-compatible provisions as a matter of course.',
+    body: 'We are ready to enter into the UK International Data Transfer Agreement (IDTA) for clients who require it. This is particularly relevant for UK clients whose data may be processed outside the UK. Our standard DPA includes IDTA compatible provisions as a matter of course.',
     link: '/compliance',
     linkText: 'Request our GDPR pack →',
   },
   {
     badge: 'MTD',
     title: 'Making Tax Digital Ready',
-    subtitle: 'HMRC MTD-compliant submissions',
-    body: "All VAT returns are submitted through MTD-compatible software in compliance with HMRC's Making Tax Digital requirements. We work with Xero, QuickBooks, Sage, and FreeAgent, all of which are HMRC-approved for MTD submissions.",
+    subtitle: 'HMRC MTD compliant submissions',
+    body: "All VAT returns are submitted through MTD compatible software in compliance with HMRC's Making Tax Digital requirements. We work with Xero, QuickBooks, Sage, and FreeAgent, all of which are HMRC approved for MTD submissions.",
     link: '/services/vat',
     linkText: 'Learn about our VAT service →',
   },
   {
     badge: 'ACCA',
-    title: 'ACCA-Led Delivery',
+    title: 'ACCA Led Delivery',
     subtitle: 'Association of Chartered Certified Accountants',
-    body: "Our accounting team is led by ACCA-qualified and ACCA-affiliated professionals. All work is delivered and reviewed under ACCA's professional ethics code, which requires confidentiality, integrity, objectivity, and professional competence as standard.",
+    body: "Our accounting team is led by ACCA qualified and ACCA affiliated professionals. All work is delivered and reviewed under ACCA's professional ethics code, which requires confidentiality, integrity, objectivity, and professional competence as standard.",
     link: 'https://www.accaglobal.com/',
     linkText: 'Learn about ACCA →',
   },
@@ -63,7 +63,7 @@ export default function Compliance() {
             <span className="italic">not bolted on.</span>
           </h1>
           <p className="font-body text-bone text-base max-w-xl leading-relaxed">
-            ICO-registered. UK GDPR-compliant. IDTA-ready. MTD-compliant. ACCA-led. Here is
+            ICO registered. UK GDPR compliant. IDTA ready. MTD compliant. ACCA led. Here is
             the full compliance picture, everything you need to verify before working with us.
           </p>
         </div>
@@ -122,7 +122,7 @@ export default function Compliance() {
               <p className="font-body text-bone text-sm leading-relaxed mb-4">
                 For clients who require formal documentation before engaging, we provide a full
                 GDPR pack on request. This includes our Privacy Policy, Data Processing
-                Agreement template, Sub-processor List, and IDTA provisions.
+                Agreement template, Sub processor List, and IDTA provisions.
               </p>
               <p className="font-body text-bone text-sm leading-relaxed">
                 Contact us with your request and we'll send it to you within one business day.
@@ -136,8 +136,8 @@ export default function Compliance() {
                 {[
                   'Privacy Policy',
                   'Data Processing Agreement (DPA) template',
-                  'Sub-processor list',
-                  'IDTA-compatible clauses',
+                  'Sub processor list',
+                  'IDTA compatible clauses',
                   'ICO registration confirmation',
                   'Data retention schedule',
                   'Data breach notification procedure',

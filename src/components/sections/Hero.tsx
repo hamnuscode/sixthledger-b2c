@@ -156,7 +156,7 @@ export default function Hero() {
           </motion.div>
         </div>
 
-        {/* Calendly booking strip — inside hero, full width */}
+        {/* Calendly booking strip ,  inside hero, full width */}
         <motion.div
           className="border-t border-smoke"
           initial={{ opacity: 0 }}

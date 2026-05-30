@@ -8,7 +8,7 @@ const services = [
   'VAT Returns',
   'Year-End Accounts',
   'Management Accounts',
-  'Self-Assessment',
+  'Self Assessment',
   'CIS Returns',
   'Company Secretarial',
   'Annual Accounts',

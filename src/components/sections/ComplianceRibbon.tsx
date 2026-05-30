@@ -23,7 +23,7 @@ const badges = [
     ),
   },
   {
-    title: 'IDTA-Ready',
+    title: 'IDTA Ready',
     subtitle: 'International data transfers handled under the UK IDTA framework.',
     icon: (
       <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
@@ -33,7 +33,7 @@ const badges = [
     ),
   },
   {
-    title: 'MTD-Ready',
+    title: 'MTD Ready',
     subtitle: 'Making Tax Digital compliant',
     icon: (
       <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
