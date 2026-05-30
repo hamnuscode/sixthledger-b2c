@@ -83,7 +83,7 @@ export const services: Service[] = [
     ],
   },
   {
-    id: 'year end-accounts',
+    id: 'year-end-accounts',
     number: '04',
     title: 'Year-End Accounts',
     shortDescription: 'Statutory accounts prepared and filed before the deadline. No chasing required.',
