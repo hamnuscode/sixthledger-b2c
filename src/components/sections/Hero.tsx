@@ -7,7 +7,7 @@ const EASE = [0.16, 1, 0.3, 1]
 export default function Hero() {
   return (
     <section
-      className="relative pt-28 pb-0 overflow-hidden"
+      className="relative pt-28 pb-16 overflow-hidden"
       style={{ background: 'var(--obsidian)' }}
       aria-labelledby="hero-headline"
     >
