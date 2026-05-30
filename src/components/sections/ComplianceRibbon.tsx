@@ -54,11 +54,17 @@ export default function ComplianceRibbon() {
       <div className="container">
         <div className="flex flex-col md:flex-row md:items-start gap-10 md:gap-16">
           <Reveal className="md:w-40 flex-shrink-0" delay={0.05}>
-            <p id="compliance-heading" className="eyebrow">
-              Compliance
-              <br />
-              stack
-            </p>
+            <div className="flex flex-col gap-4">
+              <p id="compliance-heading" className="eyebrow">
+                Compliance
+                <br />
+                stack
+              </p>
+              <svg width="48" height="56" viewBox="0 0 48 56" fill="none" aria-hidden="true" className="text-lime opacity-60">
+                <path d="M24 2L4 10v16c0 14 8.5 26 20 30 11.5-4 20-16 20-30V10L24 2z" stroke="currentColor" strokeWidth="1.5" strokeLinejoin="round"/>
+                <path d="M15 28l6 6 12-12" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
+            </div>
           </Reveal>
 
           <Stagger className="flex-1 grid grid-cols-2 lg:grid-cols-4 gap-0 divide-x divide-smoke" stagger={0.1} delay={0.1}>

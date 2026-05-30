@@ -106,6 +106,43 @@ export default function Hero() {
                 )
               )}
             </motion.div>
+
+            {/* Workflow visual */}
+            <motion.div
+              className="mt-6 pt-6 border-t border-smoke"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 0.6, delay: 0.65 }}
+              aria-hidden="true"
+            >
+              <div className="flex items-center">
+                {/* Step 1: Receive */}
+                <div className="flex flex-col items-center gap-1.5 flex-shrink-0">
+                  <span className="text-lime">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><rect x="2" y="1" width="9" height="12" rx="1" stroke="currentColor" strokeWidth="1.2"/><path d="M5 1v3h4" stroke="currentColor" strokeWidth="1.2" strokeLinejoin="round"/><path d="M4 7h6M4 10h4" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round"/></svg>
+                  </span>
+                  <span className="font-mono text-[10px] text-ash uppercase tracking-widest">Receive</span>
+                </div>
+                {/* Connector */}
+                <div className="flex-1 h-px bg-smoke mx-3" />
+                {/* Step 2: Process */}
+                <div className="flex flex-col items-center gap-1.5 flex-shrink-0">
+                  <span className="text-lime">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 10a2 2 0 100-4 2 2 0 000 4z" stroke="currentColor" strokeWidth="1.2"/><path d="M8 1v2M8 13v2M1 8h2M13 8h2M3.05 3.05l1.41 1.41M11.54 11.54l1.41 1.41M3.05 12.95l1.41-1.41M11.54 4.46l1.41-1.41" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round"/></svg>
+                  </span>
+                  <span className="font-mono text-[10px] text-ash uppercase tracking-widest">Process</span>
+                </div>
+                {/* Connector */}
+                <div className="flex-1 h-px bg-smoke mx-3" />
+                {/* Step 3: Deliver */}
+                <div className="flex flex-col items-center gap-1.5 flex-shrink-0">
+                  <span className="text-lime">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="6" stroke="currentColor" strokeWidth="1.2"/><path d="M5 8l2 2 4-4" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round"/></svg>
+                  </span>
+                  <span className="font-mono text-[10px] text-ash uppercase tracking-widest">Deliver</span>
+                </div>
+              </div>
+            </motion.div>
           </div>
 
           {/* Right: VSL player */}
