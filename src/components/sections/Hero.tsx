@@ -43,7 +43,7 @@ export default function Hero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.55, ease: EASE, delay: 0.05 }}
             >
-              For UK small businesses
+              For UK sole traders & small businesses
             </motion.p>
 
             <motion.h1
@@ -54,11 +54,11 @@ export default function Hero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7, ease: EASE, delay: 0.15 }}
             >
-              Your books,{' '}
-              <span className="italic text-pure">sorted.</span>
+              Your accounts handled.{' '}
+              <span className="italic text-pure">Your numbers clear.</span>
               <br />
-              Your numbers,{' '}
-              <span className="italic text-pure">explained.</span>
+              Your time{' '}
+              <span className="italic text-pure">back.</span>
             </motion.h1>
 
             <motion.p
@@ -67,9 +67,9 @@ export default function Hero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.65, ease: EASE, delay: 0.28 }}
             >
-              Professional accounting and bookkeeping for UK sole traders, freelancers, and
-              small businesses. ACCA-led, ICO-registered, MTD-ready, at a price that
-              makes sense.
+              Fully remote accounting for UK sole traders, freelancers, and limited companies.
+              ACCA qualified. ICO registered. MTD compliant. Fixed fees. No office visits,
+              no surprises.
             </motion.p>
 
             <motion.div
@@ -79,10 +79,10 @@ export default function Hero() {
               transition={{ duration: 0.6, ease: EASE, delay: 0.4 }}
             >
               <Button to="/contact" size="lg">
-                Book a free consultation
+                Book a free 20 minute call
               </Button>
               <Button to="/pricing" variant="ghost" size="lg">
-                See pricing
+                See fixed fee pricing
               </Button>
             </motion.div>
 
@@ -93,7 +93,7 @@ export default function Hero() {
               animate={{ opacity: 1 }}
               transition={{ duration: 0.6, ease: 'easeOut', delay: 0.56 }}
             >
-              {['ICO Registered', 'ACCA-Led', 'UK GDPR Compliant', 'MTD-Ready'].map(
+              {['ACCA Qualified', 'ICO Registered', 'UK GDPR Compliant', 'IDTA Ready', 'MTD Ready'].map(
                 (badge, i) => (
                   <span key={badge} className="flex items-center gap-4">
                     {i > 0 && (
@@ -130,7 +130,7 @@ export default function Hero() {
             <div>
               <p className="eyebrow mb-1">Free consultation</p>
               <p className="font-display text-xl text-pure">
-                Book a free 30-minute call. No obligation.
+                Book a free 20 minute call. We'll tell you exactly what you need and what it costs. No obligation.
               </p>
             </div>
             <a

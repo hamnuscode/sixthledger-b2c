@@ -10,11 +10,11 @@ export default function Testimonials() {
           <p className="eyebrow mb-4">What clients say</p>
           <h2
             id="testimonials-heading"
-            className="font-display text-3xl md:text-4xl text-pure"
+            className="font-display text-3xl md:text-4xl text-pure mb-3"
           >
-            Trusted by UK{' '}
-            <span className="italic">small businesses</span>
+            What our clients say
           </h2>
+          <p className="font-body text-xs text-ash italic">Client names anonymised at their request.</p>
         </Reveal>
 
         <Stagger className="grid md:grid-cols-3 gap-6" stagger={0.12}>

@@ -19,7 +19,7 @@ const tiers: PricingTier[] = [
     eyebrow: '01, Starter',
     price: 'From £149',
     period: 'per month',
-    description: 'For freelancers and sole traders who need the basics handled professionally.',
+    description: 'Everything a sole trader or freelancer needs to stay compliant and tax efficient, handled for a flat monthly fee.',
     features: [
       'Monthly bookkeeping',
       'Self-assessment tax return',
@@ -35,7 +35,7 @@ const tiers: PricingTier[] = [
     eyebrow: '02, Most popular',
     price: 'From £349',
     period: 'per month',
-    description: 'For limited companies and partnerships needing a comprehensive accounting service.',
+    description: 'The full accounting function for a limited company, from monthly bookkeeping to corporation tax, for one fixed monthly fee.',
     features: [
       'Everything in Sole Trader',
       'Payroll (up to 5 employees)',
@@ -44,7 +44,7 @@ const tiers: PricingTier[] = [
       'Corporation tax return',
       'Monthly management accounts',
       'Priority email support',
-      'Quarterly review call',
+      'Quarterly video review call',
     ],
     cta: 'Book a free consultation',
     recommended: true,
@@ -54,7 +54,7 @@ const tiers: PricingTier[] = [
     eyebrow: '03, Full service',
     price: 'Custom',
     period: 'monthly retainer',
-    description: 'For businesses with complex needs, multi-employee payroll, CIS, company secretarial, and more.',
+    description: 'For growing businesses with complex needs, multi employee payroll, CIS, strategic reporting, and a dedicated accountant who knows your numbers.',
     features: [
       'Everything in Small Business',
       'Payroll (unlimited employees)',
@@ -87,9 +87,7 @@ export default function PricingSection() {
             <span className="italic">surprises.</span>
           </h2>
           <p className="font-body text-bone text-sm leading-relaxed">
-            All packages are fixed-fee monthly retainers. You know exactly what you pay every
-            month. Book a free consultation and we'll confirm the exact price for your situation
-            within 24 hours.
+            Every package is a fixed monthly fee. No hourly rates. No surprise invoices. No year end bill shock. Book a free call and we'll confirm your exact price within 24 hours.
           </p>
         </Reveal>
 
@@ -177,7 +175,7 @@ export default function PricingSection() {
 
         <Reveal delay={0.2} type="fade">
           <p className="font-mono text-xs text-ash text-center mt-8 uppercase tracking-label">
-            All prices shown are indicative. Final pricing confirmed at consultation · All packages include a data processing agreement
+            Prices shown are starting points. Your exact fee is confirmed during consultation. All packages include a signed Data Processing Agreement.
           </p>
         </Reveal>
       </div>

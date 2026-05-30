@@ -4,23 +4,28 @@ import { Reveal, Stagger, item } from '../ui/Reveal'
 const reasons = [
   {
     numeral: 'i.',
-    title: 'You focus on your business',
-    body: 'We take the admin off your hands entirely. Bookkeeping, payroll, VAT, tax returns, you hand them to us and they get done. No chasing, no reminders.',
+    title: 'You run your business. We handle the numbers.',
+    body: 'Hand us your bookkeeping, payroll, VAT, and tax returns. They get done on time, every time. No chasing you. No reminders from HMRC.',
   },
   {
     numeral: 'ii.',
-    title: 'Compliance built in, not bolted on',
-    body: 'ICO-registered, GDPR-compliant, IDTA-ready. The compliance infrastructure that larger firms charge extra for is standard with us from day one.',
+    title: 'Compliance built in from day one.',
+    body: 'Every client receives a signed Data Processing Agreement, ICO registered data handling, and IDTA ready processes as standard.',
   },
   {
     numeral: 'iii.',
-    title: 'Real ACCA qualifications',
-    body: 'Our team includes ACCA-qualified accountants and ACCA finalists. Not a generic bookkeeper. Not a spreadsheet service. Real professional credentials.',
+    title: 'ACCA qualified accountants. Not a bookkeeper with a spreadsheet.',
+    body: 'Our team is ACCA qualified and operates to professional accounting standards. Technical expertise, professional ethics, and accountability are built into everything we do.',
   },
   {
     numeral: 'iv.',
-    title: 'Start with one job',
-    body: "No minimum commitment beyond what you need. Start with your self-assessment return. Add bookkeeping when you're ready. Scale at your pace.",
+    title: 'Start small. Scale when you\'re ready.',
+    body: 'Begin with a single service, whether that\'s self assessment, bookkeeping, or something else. Add services as your business grows.',
+  },
+  {
+    numeral: 'v.',
+    title: 'Fully remote and built for it.',
+    body: 'We work entirely online. Secure document sharing, video calls, and support during UK business hours. No office visits. No geographic limits.',
   },
 ]
 
@@ -34,12 +39,11 @@ export default function WhyChooseUs() {
             id="why-heading"
             className="font-display text-3xl md:text-4xl text-pure"
           >
-            What makes us{' '}
-            <span className="italic">different</span>
+            Why business owners choose us and stay
           </h2>
         </Reveal>
 
-        <Stagger className="grid sm:grid-cols-2 lg:grid-cols-4 gap-0 border border-smoke" stagger={0.1}>
+        <Stagger className="grid sm:grid-cols-2 lg:grid-cols-5 gap-0 border border-smoke" stagger={0.1}>
           {reasons.map((reason, i) => (
             <motion.div
               key={reason.numeral}

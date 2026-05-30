@@ -4,7 +4,7 @@ import { Reveal, Stagger, item } from '../ui/Reveal'
 const badges = [
   {
     title: 'ICO Registered',
-    subtitle: "UK Information Commissioner's Office",
+    subtitle: "Registered with the UK Information Commissioner's Office. Your business data is handled securely and in line with UK data protection requirements.",
     icon: (
       <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
         <rect x="1" y="1" width="26" height="26" rx="2" stroke="currentColor" strokeWidth="1.5" />
@@ -14,7 +14,7 @@ const badges = [
   },
   {
     title: 'UK GDPR',
-    subtitle: 'Data Processing Agreement ready',
+    subtitle: 'Every client receives a signed Data Processing Agreement from day one.',
     icon: (
       <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
         <path d="M14 3L4 7v8c0 5 4.5 9.5 10 10 5.5-.5 10-5 10-10V7L14 3z" stroke="currentColor" strokeWidth="1.5" strokeLinejoin="round" />
@@ -24,7 +24,7 @@ const badges = [
   },
   {
     title: 'IDTA-Ready',
-    subtitle: 'International Data Transfer Agreement',
+    subtitle: 'International data transfers handled under the UK IDTA framework.',
     icon: (
       <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
         <circle cx="14" cy="14" r="11" stroke="currentColor" strokeWidth="1.5" />

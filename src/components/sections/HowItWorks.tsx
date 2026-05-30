@@ -4,23 +4,23 @@ import { Reveal, Stagger, item } from '../ui/Reveal'
 const steps = [
   {
     numeral: 'i.',
-    title: 'Book a free consultation',
-    body: '20 minutes. Tell us about your business. We tell you exactly what we can do and at what price. No commitment required.',
+    title: 'Free 20 minute call',
+    body: 'You tell us about your business. We tell you exactly what we would do and what it costs. No obligation and no sales pitch.',
   },
   {
     numeral: 'ii.',
-    title: 'We agree what you need',
-    body: 'A simple engagement letter and a data processing agreement. Clear scope, clear price, clear start date. No hidden costs.',
+    title: 'Engagement letter and DPA',
+    body: 'We send an engagement letter and a Data Processing Agreement in plain English. Scope, price, and start date are confirmed in writing before we begin.',
   },
   {
     numeral: 'iii.',
-    title: 'We handle the numbers',
-    body: "You give us access to your accounting software or share what we need. We get on with it. You get on with your business.",
+    title: 'Share access',
+    body: 'You share access to your accounting software or send us what we need. We take it from there.',
   },
   {
     numeral: 'iv.',
-    title: 'You grow, we scale',
-    body: 'Add services as your business grows. Monthly reporting, year-end, payroll, we expand with you at every stage.',
+    title: 'Scale as you grow',
+    body: 'As your business grows, your service package grows with it. Add payroll, VAT, management accounts, or year end services at any time.',
   },
 ]
 
@@ -39,10 +39,8 @@ export default function HowItWorks() {
             id="process-heading"
             className="font-display text-3xl md:text-4xl text-pure"
           >
-            From first contact to{' '}
-            <span className="italic">running smoothly</span>
-            <br />
-            in less than a week.
+            From first call to fully onboarded{' '}
+            <span className="italic">in under a week.</span>
           </h2>
         </Reveal>
 

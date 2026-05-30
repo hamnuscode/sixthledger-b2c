@@ -7,7 +7,7 @@ const stats = [
   { value: '3+2', label: 'ACCA Qualified\n& Finalists', numeric: false },
   { value: '9', label: 'Service\nLines', numeric: true },
   { value: '4', label: 'Cloud\nPlatforms', numeric: true },
-  { value: 'UK', label: 'Working\nHours', numeric: false },
+  { value: '9am', label: 'to 5pm\nGMT', numeric: false },
 ]
 
 function CountUp({ target, active }: { target: number; active: boolean }) {

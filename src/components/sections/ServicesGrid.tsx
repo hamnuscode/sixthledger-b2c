@@ -21,8 +21,7 @@ export default function ServicesGrid() {
                 <span className="italic">handled.</span>
               </h2>
               <p className="text-bone text-sm leading-relaxed mb-6">
-                From monthly bookkeeping to year-end accounts, payroll to VAT, we cover all nine
-                core accounting services for UK small businesses, contractors, and sole traders.
+                From monthly bookkeeping to year end accounts and VAT returns, everything is handled remotely, on time, and to a professional standard. Nine services. One firm. No switching.
               </p>
               <Button to="/services" variant="outline" size="sm">
                 View all services

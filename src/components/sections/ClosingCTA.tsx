@@ -28,15 +28,14 @@ export default function ClosingCTA() {
             className="font-display text-4xl md:text-5xl lg:text-6xl text-pure mb-6 max-w-3xl mx-auto"
             style={{ letterSpacing: '-0.02em' }}
           >
-            One trial job.{' '}
-            <span className="italic">That's the whole ask.</span>
+            Try us on one job.{' '}
+            <span className="italic">No contract. No commitment.</span>
           </h2>
         </Reveal>
 
         <Reveal delay={0.22}>
           <p className="font-body text-bone text-base leading-relaxed mb-10 max-w-lg mx-auto">
-            Start with a single service. No contract lock-in. See the quality for yourself before
-            committing to anything further.
+            Start with your self assessment, bookkeeping, or whatever you need most right now. See the quality first, then decide whether you want more.
           </p>
         </Reveal>
 
@@ -73,7 +72,7 @@ export default function ClosingCTA() {
                 <circle cx="7" cy="7" r="5.5" stroke="currentColor" strokeWidth="1.2" />
                 <path d="M7 4v3l2 1.5" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" />
               </svg>
-              <span className="font-body text-xs">UK business hours, Mon to Fri</span>
+              <span className="font-body text-xs">Mon to Fri, 9am to 5pm GMT</span>
             </span>
           </div>
         </Reveal>

@@ -2,8 +2,6 @@ import { Link } from 'react-router-dom'
 import { services } from '../../data/services'
 
 export default function Footer() {
-  const year = new Date().getFullYear()
-
   return (
     <footer className="bg-coal border-t border-smoke" role="contentinfo">
       <div className="container">
@@ -20,8 +18,7 @@ export default function Footer() {
               />
             </Link>
             <p className="text-bone text-sm leading-relaxed mb-4">
-              ACCA-led accounting for UK sole traders, freelancers, and small businesses.
-              ICO-registered. UK GDPR compliant.
+              Fully remote accounting for UK sole traders, freelancers, and small businesses. ACCA qualified. ICO registered. UK GDPR compliant.
             </p>
             <p className="font-mono text-xs text-ash uppercase tracking-label">
               ICO Reg:{' '}
@@ -115,7 +112,7 @@ export default function Footer() {
 
               <li>
                 <address className="text-ash text-xs not-italic leading-relaxed">
-                  Islamabad, Pakistan
+                  Remote. UK business hours.
                 </address>
               </li>
               <li className="pt-1">
@@ -139,7 +136,7 @@ export default function Footer() {
         {/* Bottom strip */}
         <div className="border-t border-smoke py-6 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-ash text-xs">
-            © {year} SIXTHLEDGER (PVT) LTD. Designed for UK small businesses.
+            © 2026 SIXTHLEDGER (PVT) LTD. Built for UK small businesses.
           </p>
           <nav aria-label="Legal navigation">
             <ul className="flex items-center gap-5">

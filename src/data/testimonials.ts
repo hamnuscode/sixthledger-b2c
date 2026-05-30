@@ -7,21 +7,21 @@ export interface Testimonial {
 
 export const testimonials: Testimonial[] = [
   {
-    quote: 'We\'ve been using Sixth Ledger for our bookkeeping and monthly accounts for six months. The quality is excellent and the turnaround is faster than our previous provider — who was local.',
+    quote: 'Six months in and the quality is excellent. Turnaround is faster than our previous accountant, and they were local.',
     name: 'Sarah M.',
     business: 'Independent Retail Business, Yorkshire',
-    service: 'Bookkeeping & Management Accounts',
+    service: 'Year-End Accounts',
   },
   {
-    quote: 'As a freelance consultant, the last thing I want to think about is my tax return. Sixth Ledger handles my self-assessment and I barely need to do anything. They flagged reliefs I didn\'t know existed.',
+    quote: 'I barely need to do anything. They handle my self assessment end to end and flagged reliefs I didn\'t even know I could claim.',
     name: 'James T.',
     business: 'Freelance IT Consultant, London',
-    service: 'Self-Assessment',
+    service: 'Self Assessment',
   },
   {
-    quote: 'The compliance credentials were the reason I went with them — ICO-registered, GDPR pack ready to go, and ACCA-led. For a growing business that takes our obligations seriously, that mattered.',
+    quote: 'The compliance setup was what made the decision. ICO registered, GDPR ready from day one, ACCA qualified, and they understood our obligations without us having to explain them.',
     name: 'Rachel O.',
     business: 'E-commerce Limited Company, Manchester',
-    service: 'Full Service Package',
+    service: 'Compliance',
   },
 ]

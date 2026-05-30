@@ -15,7 +15,7 @@ export const services: Service[] = [
     id: 'bookkeeping',
     number: '01',
     title: 'Bookkeeping',
-    shortDescription: 'Keep your records spotless, always.',
+    shortDescription: 'Accurate records every month, so you\'re never caught out at year end.',
     description: 'Accurate, timely bookkeeping that keeps your finances organised and your business compliant. We work within your existing software so nothing changes on your end.',
     tasks: [
       'Bank reconciliation and transaction categorisation',
@@ -38,7 +38,7 @@ export const services: Service[] = [
     id: 'payroll',
     number: '02',
     title: 'Payroll & RTI',
-    shortDescription: 'Pay your team right, every time.',
+    shortDescription: 'Payroll run on time, RTI filed with HMRC, every pay period without fail.',
     description: 'We manage your entire payroll process from calculation through to HMRC submission, ensuring your team are paid accurately and on time every pay period.',
     tasks: [
       'Monthly or weekly payroll processing',
@@ -63,7 +63,7 @@ export const services: Service[] = [
     id: 'vat',
     number: '03',
     title: 'VAT Returns',
-    shortDescription: 'Never miss an MTD deadline.',
+    shortDescription: 'MTD compliant VAT returns filed on time, every quarter.',
     description: 'We prepare and submit your VAT returns through HMRC\'s Making Tax Digital (MTD) system, ensuring accuracy, compliance, and on-time submission every quarter.',
     tasks: [
       'Quarterly VAT return preparation',
@@ -86,7 +86,7 @@ export const services: Service[] = [
     id: 'year-end-accounts',
     number: '04',
     title: 'Year-End Accounts',
-    shortDescription: 'Year-end, sorted.',
+    shortDescription: 'Statutory accounts prepared and filed before the deadline. No chasing required.',
     description: 'We prepare your statutory year-end accounts in accordance with UK GAAP, ready for filing with Companies House and HMRC. Clear, accurate, on time.',
     tasks: [
       'Full statutory accounts preparation (FRS 102 / FRS 105)',
@@ -110,7 +110,7 @@ export const services: Service[] = [
     id: 'management-accounts',
     number: '05',
     title: 'Management Accounts',
-    shortDescription: 'Numbers that tell you something.',
+    shortDescription: 'Monthly numbers that show you exactly where your business stands and what to do next.',
     description: 'Monthly or quarterly management accounts that give you a clear view of your business performance — profit, cash position, and key metrics — so you can make better decisions.',
     tasks: [
       'Monthly profit and loss statement',
@@ -133,7 +133,7 @@ export const services: Service[] = [
     id: 'self-assessment',
     number: '06',
     title: 'Self-Assessment',
-    shortDescription: 'Tax returns done for you.',
+    shortDescription: 'Your self assessment filed correctly, on time, and with every legitimate relief claimed.',
     description: 'We prepare and file your self-assessment tax return accurately and on time, identifying every legitimate relief and deduction available to you.',
     tasks: [
       'SA100 personal tax return preparation',
@@ -158,7 +158,7 @@ export const services: Service[] = [
     id: 'cis',
     number: '07',
     title: 'CIS Returns',
-    shortDescription: 'Construction industry compliance, handled.',
+    shortDescription: 'CIS deductions calculated, returns filed, and subcontractor statements issued every month.',
     description: 'We manage the full Construction Industry Scheme compliance process for contractors and subcontractors, ensuring accurate deductions, timely submissions, and clean HMRC records.',
     tasks: [
       'CIS contractor monthly return submission',
@@ -181,7 +181,7 @@ export const services: Service[] = [
     id: 'company-secretarial',
     number: '08',
     title: 'Company Secretarial',
-    shortDescription: 'Company admin, off your plate.',
+    shortDescription: 'Confirmation statements, registered office services, and Companies House filings handled for you.',
     description: 'We handle your statutory company secretarial obligations, keeping your Companies House record accurate and your compliance calendar clear.',
     tasks: [
       'Confirmation statement (Annual Return) filing',
@@ -205,7 +205,7 @@ export const services: Service[] = [
     id: 'annual-accounts',
     number: '09',
     title: 'Annual Accounts Preparation',
-    shortDescription: 'Your statutory accounts, handled.',
+    shortDescription: 'Full annual accounts prepared to FRS 102 and FRS 105 standards and filed with Companies House and HMRC.',
     description: 'We prepare your annual accounts for all entity types — limited companies, LLPs, sole traders, and partnerships — ready for filing and presented in a format you actually understand.',
     tasks: [
       'Statutory accounts preparation (full and abbreviated)',
